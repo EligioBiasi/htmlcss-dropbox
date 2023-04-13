@@ -20,7 +20,7 @@ ul{
     padding: 0.8rem;
 }
 
-a{
+header a{
     text-decoration: none;
     color: black;
 }
@@ -54,6 +54,11 @@ a{
 .column{
     width: calc(100%/4);
     border: 1px solid rgb(219 219 221);
+}
+
+.column-order{
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .column-icon{
