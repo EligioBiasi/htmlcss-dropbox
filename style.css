@@ -43,7 +43,6 @@ header a{
 .container-main{
     width: 60%;
     margin: 0 auto;
-    height: 1100px;
 }
 
 .radio-button{
@@ -57,13 +56,13 @@ header a{
 }
 
 .column-order{
-    padding: 1.5rem 0.7rem;
+    padding: 1.5rem 0.3rem;
 }
 
 .column-icon{
     text-align: center;
     padding: 0.5rem;
-    border-bottom: 1px solid rgb(219 219 221); ;
+    border-bottom: 1px solid rgb(219 219 221);
 }
 
 .container-column{
@@ -110,3 +109,10 @@ div.img-jumbo img{
 section.container-main h1{
     margin-bottom: 5%;
 }
+
+div.column-order>*,
+div.column-order ul>*
+{
+    margin:0.7rem 0;
+}
+
