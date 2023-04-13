@@ -53,12 +53,17 @@ a{
 
 .column{
     width: calc(100%/4);
-    justify-content: space-between;
     border: 1px solid rgb(219 219 221);
 }
 
 .column-icon{
-    
+    text-align: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid rgb(219 219 221); ;
+}
+
+.container-column{
+    justify-content: space-between;
 }
 
 header nav{
