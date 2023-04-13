@@ -57,16 +57,13 @@ div.jumbotron{
 div.jumbotron h1{
     font-size: 3rem;
     line-height: 5rem;
+    margin-bottom: 2rem;
 }
 
 div.text-jumbo{
-    width: 35%;
-    padding: 1.5rem;
-}
-
-div.text-jumbo p{
-    margin: 2rem 0;
-    font-size: 0.7rem;
+    width: 40%;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 div.img-jumbo{
