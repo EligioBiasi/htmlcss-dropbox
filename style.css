@@ -62,7 +62,7 @@ header a{
 }
 
 .column{
-    width: calc(100%/4);
+    width: calc(100%/3.4);
 }
 
 .border-column{
