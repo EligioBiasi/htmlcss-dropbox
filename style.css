@@ -83,6 +83,10 @@ div.jumbotron{
     margin: 0 auto;
 }
 
+div.header-height{
+    height: 305px;
+}
+
 div.jumbotron h1{
     font-size: 3rem;
     line-height: 5rem;
@@ -99,11 +103,12 @@ div.text-jumbo{
 
 div.img-jumbo{
     width: 70%;
+    height: 376px;
 }
 
 div.img-jumbo img{
     width: 100%;
-    margin-bottom: -9%;
+    height: 100%;
 }
 
 section.container-main h1{
@@ -116,3 +121,6 @@ div.column-order ul>*
     margin:0.7rem 0;
 }
 
+div.column-order h2{
+    font-size: 1.3rem;
+}
