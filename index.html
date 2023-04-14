@@ -56,9 +56,10 @@
     <main>
         <section class="container-main">
                 <h1>Trova il piano business che fa per te</h1>
-                <input type="radio">fatturazione mensile
-                <input type="radio" class="radio-button" >fatturazione annuale   
-
+                <input type="radio" class="radio-button" >
+                <span>fatturazione mensile</span> 
+                <input type="radio" class="radio-button" >   
+                <span>fatturazione annuale</span>
             <div class="flex container-column">
 
                 <div class="column border-column">
@@ -71,7 +72,7 @@
                     <div>
                       <div class="column-order">  
                         <h2>Professional</h2>
-                        <p><strong>€ 12.00</strong></p>
+                        <p class="small-title"><strong>€ 12.00</strong></p>
                         <p>/mese</p>
                       </div>
                      
@@ -97,100 +98,25 @@
                        </div>
                     </div>
                 </div>
-
-                <div class="column border-column">
-                    <div class="column-icon">
-                        <i class="fa-solid fa-people-group fa-sm"></i>
-                        <span>Team</span>
-                    </div>
-                    
-                    <div>
-                        <div class="column-order">  
-                          <h2>Advanced</h2>
-                          <p><strong>€ 18.00</strong></p>
-                          <p>/utente/mese</p>
-                        </div>
-                       
-                        <div class="column-order">
-                          <ul>
-                              <li><i class="fa-solid fa-people-group fa-sm"></i> 3 o più utenti</li>
-                              <li><i class="fa-solid fa-folder"></i> tutto lo spazio di cui hai bisogno</li>
-                              <li><i class="fa-solid fa-share-nodes fa-sm"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
-                          </ul>
-                        </div>
-  
-                        <div class="column-order ">
-                          <span><button class="blue-button">Prova gratis per 30 giorni</button></span>
-                          <p>oppure <a href="#">acquista ora</a></p>
-                        </div>
-                        
-                        <div class="column-order">
-                          <h3>Punti salienti del piano</h3>
-                          <ul>
-                              <li><i class="fa-solid fa-check fa-sm"></i> Nessun limite di spazio per i file</li>
-                              <li><i class="fa-solid fa-check fa-sm"></i> Cartelle offline su dispositivi mobili</li>
-                              <li><i class="fa-solid fa-check fa-sm"></i> Risparmio del 50% rispetto alle iscrizioni singole</li>
-                              <li><i class="fa-solid fa-check fa-sm"></i> Possibilità di inserrire nuovi membri del Team</li>
-                              <li><i class="fa-solid fa-check fa-sm"></i> Gestione dei permessi in base al ruolo</li>
-                          </ul>
-                         </div>
-                    </div>
-                </div>
-                <div class="column border-column">
-                    <div class="column-icon">
-                        <i class="fa-solid fa-building fa-sm"></i>
-                        <span>Azienda</span>
-                    </div>
-                    
-                    <div>
-                        <div class="column-order">  
-                          <h2>Enterprise</h2>
-                          <p><strong>Contattaci</strong></p>
-                        </div>
-                       
-                        <div class="column-order">
-                          <ul>
-                              <li><i class="fa-solid fa-user fa-sm"></i> 10 o più utenti</li>
-                              <li><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</li>
-                              <li><i class="fa-solid fa-share-nodes fa-sm"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
-                          </ul>
-                        </div>
-  
-                        <div class="column-order ">
-                          <span><button class="blue-button">Prova gratis per 30 giorni</button></span>
-                          <p>oppure <a href="#">acquista ora</a></p>
-                        </div>
-                        
-                        <div class="column-order">
-                          <h3>Punti salienti del piano</h3>
-                          <ul>
-                              <li><i class="fa-solid fa-check fa-sm"></i> Cartelle offline sui dispositivi mobili</li>
-                              <li><i class="fa-solid fa-check fa-sm"></i> Servizio assistenza 24/h</li>
-                              <li><i class="fa-solid fa-check fa-sm"></i> Pssibilità di personalizzazione totale</li>
-                          </ul>
-                         </div>
-                    </div>
-                    
-                </div>
-
             </div>
 
         </section>
 
-        <section class="container-main">
+        <section class="container-main wide">
             <div class="border-column">
                 <div class="column-icon">
                     <i class="fa-solid fa-building fa-sm"></i>
                 </div>
-
-                <div class="flex container-column wide-column">
-                    <h1>Enterprise</h1>
-                    <button class="blue-button">Contatta l'ufficio vendite</button>
-                </div>
-                <div class="wide-column">
-                    <p><strong>Contatta l'ufficio vendite per i prezzi</strong></p>
-                    <p>Soluzioni personalizzate e Supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>
-                </div>    
+                <div class="flex">
+                    <div class="container-column wide-column right">
+                        <h2>Enterprise</h2>
+                        <p class="small-title"><strong>Contatta l'ufficio vendite per i prezzi</strong></p>
+                        <p class="price">Soluzioni personalizzate e Supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
+                    </div>
+                    <div class="wide-column left">
+                        <button class="blue-button">Contatta l'ufficio vendite</button>
+                    </div>
+                </div>        
             </div>    
         </section>
 
@@ -203,8 +129,5 @@
         </section>
 
     </main>
-
-
-
 </body>
 </html>

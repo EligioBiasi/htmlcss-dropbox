@@ -20,6 +20,12 @@ ul{
     padding: 0.8rem;
 }
 
+h2{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    
+}
+
 header a{
     text-decoration: none;
     color: black;
@@ -37,7 +43,8 @@ header a{
     border: none;
     background-color: rgb(0 97 255);
     color: white;
-    padding: 6px 10px;    
+    padding: 6px 10px;
+    font-size:0.6rem;
 }
 
 .container-main{
@@ -46,8 +53,7 @@ header a{
 }
 
 .radio-button{
-    margin-left: 10px;
-    margin-bottom: 5%;
+    margin: 5% 1%;
 }
 
 .column{
@@ -58,9 +64,7 @@ header a{
     border: 1px solid rgb(219 219 221);
 }
 
-.column-order{
 
-}
 
 .column-icon{
     text-align: center;
@@ -72,9 +76,27 @@ header a{
     justify-content: space-between;
 }
 
+.small-title{
+font-size: 0.8rem;
+margin-bottom: 1.5rem;
+}
 
 .wide-column{
-    padding: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.price{
+    color: rgb(128 135 133);
+    font-size: 0.80rem;
+    margin-bottom: 1rem;
+}
+
+.right{
+    width: 70%;
+}
+
+.left{
+    width: 30%;
 }
 
 header nav{
@@ -119,24 +141,11 @@ div.img-jumbo img{
     height: 100%;
 }
 
-section.container-main .radio-button{
-    margin-top: 5%;
-}
-
-div.column-order>*,
-div.column-order ul>*
-{
-    padding:0.7rem 0.5rem;
-}
-
 div.column-order h2{
     font-size: 1.3rem;
 }
 
-main section.container-main:first-child{
-    margin-bottom: 45px;
-}
-
-div.wide-column p{
-    margin-bottom: 1.5rem;
+main section.container-main.wide{
+    margin-top: 45px;
+    margin-bottom: 90px;
 }
