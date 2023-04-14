@@ -59,7 +59,7 @@ header a{
 }
 
 .column-order{
-    padding: 0.8rem 0.3rem;
+
 }
 
 .column-icon{
@@ -71,6 +71,7 @@ header a{
 .container-column{
     justify-content: space-between;
 }
+
 
 .wide-column{
     padding: 1rem;
@@ -125,7 +126,7 @@ section.container-main .radio-button{
 div.column-order>*,
 div.column-order ul>*
 {
-    margin:0.7rem 0;
+    padding:0.7rem 0.5rem;
 }
 
 div.column-order h2{
@@ -137,5 +138,5 @@ main section.container-main:first-child{
 }
 
 div.wide-column p{
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
