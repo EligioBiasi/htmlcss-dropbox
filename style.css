@@ -52,6 +52,9 @@ header a{
 
 .column{
     width: calc(100%/4);
+}
+
+.border-column{
     border: 1px solid rgb(219 219 221);
 }
 
@@ -67,6 +70,10 @@ header a{
 
 .container-column{
     justify-content: space-between;
+}
+
+.wide-column{
+    padding: 1rem;
 }
 
 header nav{
@@ -111,8 +118,8 @@ div.img-jumbo img{
     height: 100%;
 }
 
-section.container-main h1{
-    margin-bottom: 5%;
+section.container-main .radio-button{
+    margin-top: 5%;
 }
 
 div.column-order>*,
@@ -123,4 +130,12 @@ div.column-order ul>*
 
 div.column-order h2{
     font-size: 1.3rem;
+}
+
+main section.container-main:first-child{
+    margin-bottom: 45px;
+}
+
+div.wide-column p{
+    margin-bottom: 2rem;
 }
