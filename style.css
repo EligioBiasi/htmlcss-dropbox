@@ -250,10 +250,6 @@ div.jumbotron{
     margin: 0 auto;
 }
 
-div.header-height{
-    height: 305px;
-}
-
 div.jumbotron h1{
     font-size: 3rem;
     line-height: 5rem;
@@ -266,12 +262,17 @@ div.text-jumbo{
     flex-direction: column;
     font-size: 0.8rem;
     padding-bottom: 1rem;
+    padding-top: 4.5rem;
 }
 
 div.img-jumbo{
     width: 70%;
-    height: 376px;
 }
+div.img-jumbo img{
+    position: relative;
+    bottom: -4.5rem;
+}
+
 
 
 div.column-order h2{
