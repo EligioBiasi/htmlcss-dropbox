@@ -226,6 +226,10 @@ margin-bottom: 1.5rem;
     padding-top: 2rem ;
 }
 
+.language{
+    margin: 3rem 0;
+}
+
 header nav{
     justify-content: space-between;
 }
@@ -314,7 +318,15 @@ footer section.container-main{
     margin-bottom: 5rem;
 }
 
-div.nav-column{
-    
+div.nav-column h3{
+    margin-bottom: 1rem;
 }
 
+div.nav-column ul li{
+    padding-bottom: 0.7rem;
+    font-size: 0.8rem;
+}
+
+div.language p{
+    margin: 0 0.4rem;
+}
