@@ -187,6 +187,20 @@ margin-bottom: 1.5rem;
     padding: 1rem;
 }
 
+.free-trial-container{
+    padding: 5rem;
+}
+
+.free-trial-section{
+    width: 50%;
+    margin: 0 8%;
+}
+
+.white-button{
+    border: none;
+    padding: 0.5rem 2.5rem;
+}
+
 header nav{
     justify-content: space-between;
 }
@@ -261,3 +275,9 @@ div.central-partner-logo-padding p{
     margin-top: 1.5rem;
     font-size: 0.8rem;
 }
+
+div.free-trial-section h1{
+    color: rgb(97 7 41);
+    font-size: 1.7rem;
+}
+
