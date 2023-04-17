@@ -1,3 +1,4 @@
+/* reset */
 *{
     margin: 0;
     padding: 0;
@@ -12,16 +13,12 @@ header{
     font-size: 0.7rem;
     margin-bottom: 6rem;
 }
+ ul{
+    list-style: none;
+ }
 
 footer{
     margin-top: 20%;
-}
-
-ul{
-    list-style: none;
-    justify-content: space-around;
-    min-width: 35%;
-    padding: 0.8rem;
 }
 
 h2{
@@ -56,6 +53,11 @@ header a{
     font-size:0.7rem;
 }
 
+div.column-order button.blue-button{
+    width: 170px;
+    height: 30px;
+}
+
 .container-main{
     width: 60%;
     margin: 0 auto;
@@ -67,6 +69,12 @@ header a{
 
 .column{
     width: calc(100%/3.4);
+}
+
+.column-order{
+    margin: 2rem 0;
+    padding: 0 1rem;
+    font-size: 0.8rem;
 }
 
 .border-column{
@@ -133,6 +141,12 @@ li img.logo{
     width: 70%;
 }
 
+header ul{
+    justify-content: space-around;
+    min-width: 35%;
+    padding: 0.8rem;
+}
+
 div.jumbotron{
     width: 70%;
     margin: 0 auto;
@@ -164,6 +178,18 @@ div.img-jumbo{
 
 div.column-order h2{
     font-size: 1.3rem;
+}
+
+div.column-order ul li,
+div.column-order p,
+div.column-order h3
+{
+    padding: 0.5rem 0;
+}
+
+div.column-order hr{
+    margin: 1rem 0;
+    width: 50px;
 }
 
 main section.container-main.wide{
