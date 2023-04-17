@@ -189,6 +189,7 @@ margin-bottom: 1.5rem;
 
 .free-trial-container{
     padding: 5rem;
+    margin-bottom: 7rem;
 }
 
 .free-trial-section{
@@ -199,6 +200,30 @@ margin-bottom: 1.5rem;
 .white-button{
     border: none;
     padding: 0.5rem 2.5rem;
+}
+
+.border{
+    border-bottom: 1px solid gray;
+}
+
+.row{
+    padding: 3rem 0;
+    border-bottom: lightgray solid 1px;
+}
+
+.black-background{
+    background-color: black;
+}
+
+.footer-nav{
+    width: 80%;
+    color: white;
+    margin: auto;
+}
+
+.nav-column{
+    width: calc(100%/4,80);
+    padding-top: 2rem ;
 }
 
 header nav{
@@ -279,5 +304,17 @@ div.central-partner-logo-padding p{
 div.free-trial-section h1{
     color: rgb(97 7 41);
     font-size: 1.7rem;
+}
+
+footer section.container-main div h1{
+    margin-bottom: 3rem;
+}
+
+footer section.container-main{
+    margin-bottom: 5rem;
+}
+
+div.nav-column{
+    
 }
 
